@@ -1,6 +1,6 @@
 # [**Based on expandable_text**](https://pub.dev/packages/expandable_text)
 
-![example expandable_text_html](https://imgur.com/gallery/fkK9jna)
+![gif](https://github.com/bxTruong/expandable_text_html/assets/52056472/e11c4254-ee0e-4d52-a8e2-e334e79bbbd4)
 
 ### Installation
 

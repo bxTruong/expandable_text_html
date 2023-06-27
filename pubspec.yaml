@@ -1,0 +1,23 @@
+name: expandable_text_html
+description: This package allows us to collapse and expand the html text.
+
+version: 0.0.1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  simple_html_css: ^3.0.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true

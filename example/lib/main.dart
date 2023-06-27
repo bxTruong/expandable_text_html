@@ -36,9 +36,30 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text(widget.title),
       ),
-      body: const ExpandableTextHtml(
-          """<p><span style="font-size:20px;"><strong>What Makes You Beautiful</strong></span></p><p><span style="font-size:12px;"><i>Bài hát của One Directio</i></span></p><p><span style="background-color:rgb(255,255,255);color:rgb(32,33,36);font-size:18px;">Lời bài hát</span></p><p style="margin-left:0px;">You're insecure, don't know what for<br>You're turning heads when you walk through the door<br>Don't need makeup to cover up<br>Being the way that you are is enough</p><p style="margin-left:0px;">Everyone else in the room can see it<br>Everyone else, but you, ooh</p><p style="margin-left:0px;">Baby, you light up my world like nobody else<br>The way that you flip your hair gets me overwhelmed<br>But when you smile at the ground, it ain't hard to tell<br>You don't know, oh-oh<br>You don't know you're beautiful</p><p style="margin-left:0px;">If only you saw what I can see<br>You'll understand why I want you so desperately<br>Right now I'm lookin' at you, and I can't believe</p><p style="margin-left:0px;">You don't know, oh-oh<br>You don't know you're beautiful, oh, oh-oh<br>That's what makes you beautiful</p><p style="margin-left:0px;">So c-come on, you got it wrong<br>To prove I'm right, I put it in a song<br>I don't know why you're being shy<br>And turn away when I look into your eyes</p><p style="margin-left:0px;">Everyone else in the room can see it<br>Everyone else, but you, ooh</p><p style="margin-left:0px;">Baby, you light up my world like nobody else<br>The way that you flip your hair gets me overwhelmed<br>But when you smile at the ground, it ain't hard to tell<br>You don't know, oh-oh<br>You don't know you're beautiful</p><p style="margin-left:0px;">If only you saw what I can see<br>You'll understand why I want you so desperately<br>Right now I'm lookin' at you, and I can't believe</p><p style="margin-left:0px;">You don't know, oh-oh<br>You don't know you're beautiful, oh, oh-oh<br>That's what makes you beautiful</p><p style="margin-left:0px;">Na-na-na, na-na-na, na, na, na<br>Na-na-na, na-na-na<br>Na-na-na, na-na-na, na, na, na<br>Na-na-na, na-na-na</p><p style="margin-left:0px;">Baby, you light up my world like nobody else<br>The way that you flip your hair gets me overwhelmed<br>But when you smile at the ground, it ain't hard to tell<br>(You don't know, oh-oh)<br>You don't know you're beautiful</p><p style="margin-left:0px;">Baby, you light up my world like nobody else<br>The way that you flip your hair gets me overwhelmed<br>But when you smile at the ground, it ain't hard to tell<br>You don't know, oh-oh<br>You don't know you're beautiful</p><p style="margin-left:0px;">If only you saw what I can see<br>You'll understand why I want you so desperately<br>Right now I'm lookin' at you, and I can't believe</p><p style="margin-left:0px;">You don't know, oh-oh<br>You don't know you're beautiful, oh, oh-oh<br>You don't know you're beautiful, oh, oh-oh<br>That's what makes you beautiful</p><p style="margin-left:0px;">Dịch sang Tiếng Việt</p><p><br>&nbsp;</p>""",
-          maxLines: 3, expandText: 'Xem thêm', collapseText: 'Thu gọn'),
+      body: const ExpandableTextHtml("""
+      <body>
+    <h1 style='color: black; font-size:50px; font-style:italic; 
+    background-color: rgb(0,122,255); font-weight:100;)'> Hello word! </h1>
+    <h1 style=''>Convert your <span style='color:lightseagreen;'>
+    HTML</span> and <span style='color:dodgerblue'>CSS</span> 
+    easily into RichText</h1>
+    <p>Lorem ipsum dolor sit, consectetur adipiscing elit. Pellentesque in leo 
+    id dui bibendum fringilla in et arcu. In vehicula vel est sed mattis.</p>
+    <p><a href="https://google.com">Need more? click this link</a></p>
+    <p>We all spell <span style='color:crimson; 
+    text-decoration: underline wavy;'>recieve</span> wrong.<br />Some times we 
+    delete <del>stuff</del></p>
+    <div style='font-size:17px'>We write things that are 
+    <span style='font-size:1.5em;'>Big,</span> <b>bold</b>&nbsp; or 
+    <span style='color:brown'>colorful</span></div>
+    <p style='font-family:times;'>Some different FONT with 
+    <span style='background-color:lightcyan;'>this part highlighted</span></p>
+    <div style='line-height:2; font-size:17px;'><b style='color: rgb(0,122,255); 
+    font-weight:500;'>Finally some line heights.</b> Lorem ipsum dolor sit amet, 
+    consectetur adipiscing elit. Pellentesque in leo id dui bibendum fringilla 
+    in et arcu. In vehicula vel est sed mattis. Duis varius, sem non mattis.</div>
+</body>
+""", maxLines: 3, expandText: 'Xem thêm', collapseText: 'Thu gọn'),
     );
   }
 }

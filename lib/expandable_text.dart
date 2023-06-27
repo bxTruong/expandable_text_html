@@ -381,18 +381,15 @@ class ExpandableTextHtmlState extends State<ExpandableTextHtml>
   }
 
   List<TextSpan> _getCollapseText(int endOffset) {
-    print('endOffset $endOffset');
     List<TextSpan> list = <TextSpan>[];
     int lengthShort = 0;
     List<TextSpan> listFull = _buildTextSpanHtml(text: widget.text);
     for (int i = 0; i < listFull.length; i++) {
       TextSpan element = listFull[i];
-      print('element $i, ${element.text}');
-
       if (i == 0 && (element.text?.length ?? 0) >= max(endOffset, 0)) {
         lengthShort = max(endOffset, 0);
         list.add(TextSpan(
-            text: element.text?.trim().substring(0, endOffset),
+            text: element.text?.substring(0, endOffset),
             style: element.style));
         break;
       }
@@ -400,7 +397,7 @@ class ExpandableTextHtmlState extends State<ExpandableTextHtml>
       list.add(TextSpan(
         text: (element.text?.length ?? 0) <= (endOffset - lengthShort)
             ? element.text
-            : element.text?.trim().substring(0, endOffset - lengthShort),
+            : element.text?.substring(0, endOffset - lengthShort),
         style: element.style,
       ));
       lengthShort += ((element.text?.length ?? 0) >= (endOffset - lengthShort)
